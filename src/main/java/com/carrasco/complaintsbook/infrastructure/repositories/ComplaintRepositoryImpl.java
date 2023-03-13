@@ -35,6 +35,6 @@ public class ComplaintRepositoryImpl implements ComplaintRepository {
 
     @Override
     public List<Complaint> readComplaintUser(int id) {
-        return db.findByUser(id);
+        return db.findByUserId(id);
     }
 }

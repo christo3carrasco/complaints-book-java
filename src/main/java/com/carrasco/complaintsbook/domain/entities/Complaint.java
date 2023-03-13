@@ -13,5 +13,5 @@ public class Complaint {
     private String place;
     private String type;
     private String comment;
-    private int user;
+    private int userId;
 }
